@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper\GraphColoringProblem.cs" />
-    <Compile Include="Helper\HamiltonianCycle.cs" />
     <Compile Include="Helper\NQueensProblem.cs" />
     <Compile Include="Helper\SumOfSubsetsProblem.cs" />
     <Compile Include="Program.cs" />

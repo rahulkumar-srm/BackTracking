@@ -16,8 +16,6 @@ namespace BackTracking
                 Console.WriteLine(
                     Environment.NewLine + "1. N Queens Problem" + //Time Complexity(n!) ~ Time Complexity(O(n^n))
                     Environment.NewLine + "2. Sum Of Subset Problem" + //Time Complexity(2^n)
-                    Environment.NewLine + "3. Graph Coloring Problem" + //Time Complexity(n^n)
-                    Environment.NewLine + "4. Hamiltonian Cycle" + //Time Complexity(n!) ~ Time Complexity(O(n^n))
                     Environment.NewLine + "0. Exit\n"
                 );
 
@@ -50,16 +48,6 @@ namespace BackTracking
 
                     SumOfSubsetsProblem sumOfSubsetsProblem = new SumOfSubsetsProblem();
                     sumOfSubsetsProblem.SolveSubset(weights, count, reqWeight);
-                }
-                else if (i == 3)
-                {
-                    GraphColoringProblem graphColoringProblem = new GraphColoringProblem();
-                    graphColoringProblem.SolveGCP();
-                }
-                else if (i == 4)
-                {
-                    HamiltonianCycle hamiltonianCycle = new HamiltonianCycle();
-                    hamiltonianCycle.SolveHC();
                 }
                 else
                 {
